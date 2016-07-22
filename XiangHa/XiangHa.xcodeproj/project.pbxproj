@@ -1,0 +1,1339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760975F91D24E81000E1845B /* HYRoundCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760975F81D24E81000E1845B /* HYRoundCornerView.swift */; };
+		760975FB1D24ED6B00E1845B /* HYLifeCellBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760975FA1D24ED6B00E1845B /* HYLifeCellBottomView.swift */; };
+		760975FD1D24ED8B00E1845B /* HYLifeCellBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760975FC1D24ED8B00E1845B /* HYLifeCellBottomView.xib */; };
+		760976011D253CFF00E1845B /* HYDispatch_after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760976001D253CFF00E1845B /* HYDispatch_after.swift */; };
+		760976031D25414E00E1845B /* HYZoomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760976021D25414E00E1845B /* HYZoomBtn.swift */; };
+		760976051D25926E00E1845B /* HYPublishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760976041D25926E00E1845B /* HYPublishView.swift */; };
+		760976071D25929E00E1845B /* HYPublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760976061D25929E00E1845B /* HYPublishView.xib */; };
+		761D5DF11D2258FD003ADB62 /* HYDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5DF01D2258FD003ADB62 /* HYDBManager.swift */; };
+		761D5DF31D22728C003ADB62 /* HYShadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5DF21D22728C003ADB62 /* HYShadeView.swift */; };
+		761D5DF61D227B58003ADB62 /* HYSpecialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5DF41D227B58003ADB62 /* HYSpecialTableViewCell.swift */; };
+		761D5DF71D227B58003ADB62 /* HYSpecialTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761D5DF51D227B58003ADB62 /* HYSpecialTableViewCell.xib */; };
+		761D5DF91D22AEEF003ADB62 /* HYSpecialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5DF81D22AEEF003ADB62 /* HYSpecialItem.swift */; };
+		761D5DFB1D22B7EE003ADB62 /* HYBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5DFA1D22B7EE003ADB62 /* HYBaseTableViewCell.swift */; };
+		761D5E021D22C0C9003ADB62 /* HYLifeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5E011D22C0C9003ADB62 /* HYLifeTableViewCell.swift */; };
+		761D5E041D22C153003ADB62 /* HYLifeCellTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5E031D22C153003ADB62 /* HYLifeCellTopView.swift */; };
+		761D5E061D22C170003ADB62 /* HYLifeCellTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761D5E051D22C170003ADB62 /* HYLifeCellTopView.xib */; };
+		761D5E0A1D22C541003ADB62 /* HYLifeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5E091D22C541003ADB62 /* HYLifeItem.swift */; };
+		761D5E0D1D22CD35003ADB62 /* HYLifeViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5E0C1D22CD35003ADB62 /* HYLifeViewItem.swift */; };
+		761D5E0F1D233E36003ADB62 /* HYCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5E0E1D233E36003ADB62 /* HYCustomer.swift */; };
+		761D5E111D23947E003ADB62 /* HYLifeCellTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D5E101D23947E003ADB62 /* HYLifeCellTitleView.swift */; };
+		761D5E131D23949B003ADB62 /* HYLifeCellTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761D5E121D23949B003ADB62 /* HYLifeCellTitleView.xib */; };
+		76385A861D352D4A0085FBB1 /* HYLifeTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76385A851D352D4A0085FBB1 /* HYLifeTableViewHeaderFooterView.swift */; };
+		76385A891D354A330085FBB1 /* HYLifeTableViewTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76385A871D354A330085FBB1 /* HYLifeTableViewTopCell.swift */; };
+		76385A8A1D354A330085FBB1 /* HYLifeTableViewTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76385A881D354A330085FBB1 /* HYLifeTableViewTopCell.xib */; };
+		76385A8C1D354AD70085FBB1 /* HYLifeCellBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76385A8B1D354AD70085FBB1 /* HYLifeCellBtn.swift */; };
+		76385A8F1D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76385A8D1D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.swift */; };
+		76385A901D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76385A8E1D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.xib */; };
+		76385A921D355DE80085FBB1 /* HYLifeBottomTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76385A911D355DE80085FBB1 /* HYLifeBottomTableViewHeaderFooterView.swift */; };
+		76385A941D366E030085FBB1 /* HYLifeBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76385A931D366E030085FBB1 /* HYLifeBaseTableViewController.swift */; };
+		76385A961D367E490085FBB1 /* HYLifeTableViewBottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76385A951D367E490085FBB1 /* HYLifeTableViewBottomCell.swift */; };
+		764085DD1D157AA300C20D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764085DC1D157AA300C20D7E /* AppDelegate.swift */; };
+		764085E71D157AA300C20D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764085E51D157AA300C20D7E /* LaunchScreen.storyboard */; };
+		7640860A1D15853C00C20D7E /* HYMainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086091D15853C00C20D7E /* HYMainNavigationViewController.swift */; };
+		7640860C1D15857200C20D7E /* HYMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640860B1D15857200C20D7E /* HYMainTabBarViewController.swift */; };
+		7640860E1D15861E00C20D7E /* HYADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640860D1D15861E00C20D7E /* HYADViewController.swift */; };
+		764086121D15863B00C20D7E /* HYLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086111D15863B00C20D7E /* HYLifeViewController.swift */; };
+		764086141D15864B00C20D7E /* HYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086131D15864B00C20D7E /* HYMeViewController.swift */; };
+		764086161D1586AE00C20D7E /* HYShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086151D1586AE00C20D7E /* HYShopViewController.swift */; };
+		7640861E1D15896C00C20D7E /* HYPublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640861D1D15896C00C20D7E /* HYPublishViewController.swift */; };
+		764086211D15901500C20D7E /* XiangHa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086201D15901500C20D7E /* XiangHa.swift */; };
+		764086251D1594F800C20D7E /* View-Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086241D1594F800C20D7E /* View-Frame.swift */; };
+		764086291D15A6D100C20D7E /* UIImage-HYImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086281D15A6D100C20D7E /* UIImage-HYImage.swift */; };
+		7640862B1D1668DE00C20D7E /* HYADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7640862A1D1668DE00C20D7E /* HYADViewController.xib */; };
+		764086391D16861100C20D7E /* Launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7640862D1D16861100C20D7E /* Launch@2x.png */; };
+		7640863A1D16861100C20D7E /* Launch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7640862E1D16861100C20D7E /* Launch@3x.png */; };
+		7640863B1D16861100C20D7E /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7640862F1D16861100C20D7E /* LaunchImage-568h@2x.png */; };
+		7640863C1D16861100C20D7E /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086301D16861100C20D7E /* LaunchImage-700-568h@2x.png */; };
+		7640863D1D16861100C20D7E /* LaunchImage-700-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086311D16861100C20D7E /* LaunchImage-700-Portrait@2x~ipad.png */; };
+		7640863E1D16861100C20D7E /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086321D16861100C20D7E /* LaunchImage-700@2x.png */; };
+		7640863F1D16861100C20D7E /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086331D16861100C20D7E /* LaunchImage-800-667h@2x.png */; };
+		764086401D16861100C20D7E /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086341D16861100C20D7E /* LaunchImage-800-Portrait-736h@3x.png */; };
+		764086411D16861100C20D7E /* LaunchImage-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086351D16861100C20D7E /* LaunchImage-Portrait@2x~ipad.png */; };
+		764086421D16861100C20D7E /* LaunchImage-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086361D16861100C20D7E /* LaunchImage-Portrait~ipad.png */; };
+		764086431D16861100C20D7E /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086371D16861100C20D7E /* LaunchImage.png */; };
+		764086441D16861100C20D7E /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 764086381D16861100C20D7E /* LaunchImage@2x.png */; };
+		764086461D1687B500C20D7E /* HYNetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086451D1687B500C20D7E /* HYNetWorkTools.swift */; };
+		764086481D1694E600C20D7E /* note in Resources */ = {isa = PBXBuildFile; fileRef = 764086471D1694E600C20D7E /* note */; };
+		7640864A1D169E4600C20D7E /* HYADItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086491D169E4500C20D7E /* HYADItem.swift */; };
+		764086501D16B12400C20D7E /* UIBarButtonItem-Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640864F1D16B12400C20D7E /* UIBarButtonItem-Item.swift */; };
+		764086541D16D9BB00C20D7E /* HYOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086531D16D9BB00C20D7E /* HYOrderViewController.swift */; };
+		764086561D16E43600C20D7E /* HYDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086551D16E43600C20D7E /* HYDiscoverViewController.swift */; };
+		7640865A1D175A5200C20D7E /* HYCookTopScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086591D175A5200C20D7E /* HYCookTopScrollerView.swift */; };
+		764086601D17684E00C20D7E /* HYCookTopScrollerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7640865F1D17684E00C20D7E /* HYCookTopScrollerView.xib */; };
+		764086631D17769500C20D7E /* HYRoundCornerBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086621D17769500C20D7E /* HYRoundCornerBtn.swift */; };
+		7640866E1D181D0400C20D7E /* HYCookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640866C1D181D0400C20D7E /* HYCookViewController.swift */; };
+		764086751D19046000C20D7E /* HYCookTopImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086741D19046000C20D7E /* HYCookTopImageView.swift */; };
+		764086771D19046900C20D7E /* HYCookTopImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764086761D19046900C20D7E /* HYCookTopImageView.xib */; };
+		764086AE1D197EFC00C20D7E /* HYCookViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086AD1D197EFC00C20D7E /* HYCookViewItem.swift */; };
+		764086B31D19A18900C20D7E /* HYCookSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086B21D19A18900C20D7E /* HYCookSearchViewController.swift */; };
+		764086B51D1A2E7B00C20D7E /* HYSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086B41D1A2E7A00C20D7E /* HYSearchView.swift */; };
+		764086B71D1A2E8400C20D7E /* HYSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764086B61D1A2E8400C20D7E /* HYSearchView.xib */; };
+		764086B91D1A318300C20D7E /* HYBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086B81D1A318300C20D7E /* HYBaseView.swift */; };
+		764086BB1D1A437000C20D7E /* HYShopViewSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086BA1D1A437000C20D7E /* HYShopViewSearchController.swift */; };
+		764086C01D1A61F700C20D7E /* HYTableViewTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086BE1D1A61F700C20D7E /* HYTableViewTopCell.swift */; };
+		764086C11D1A61F700C20D7E /* HYTableViewTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764086BF1D1A61F700C20D7E /* HYTableViewTopCell.xib */; };
+		764086C51D1B029B00C20D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764086C41D1B029B00C20D7E /* Assets.xcassets */; };
+		764086C71D1B083500C20D7E /* HYTopCellBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086C61D1B083500C20D7E /* HYTopCellBtn.swift */; };
+		764086CB1D1C921300C20D7E /* HYTitleBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086CA1D1C921300C20D7E /* HYTitleBaseViewController.swift */; };
+		764086CD1D1C935B00C20D7E /* HYCookGoodFishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086CC1D1C935B00C20D7E /* HYCookGoodFishViewController.swift */; };
+		764086CF1D1C9CC300C20D7E /* HYCookDeliciousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086CE1D1C9CC300C20D7E /* HYCookDeliciousViewController.swift */; };
+		764086D11D1C9D4D00C20D7E /* HYCookVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086D01D1C9D4D00C20D7E /* HYCookVideoViewController.swift */; };
+		764086D31D1C9E0600C20D7E /* HYCookClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086D21D1C9E0600C20D7E /* HYCookClassViewController.swift */; };
+		764086DB1D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086D91D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.swift */; };
+		764086DC1D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764086DA1D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.xib */; };
+		764086DE1D1CDDA500C20D7E /* HYStretchableTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086DD1D1CDDA500C20D7E /* HYStretchableTableHeaderView.swift */; };
+		764086E31D1D018400C20D7E /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086E21D1D018400C20D7E /* UIButton-Extension.swift */; };
+		764086E51D1D676100C20D7E /* HYRoundCornerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086E41D1D676100C20D7E /* HYRoundCornerImageView.swift */; };
+		764086E71D1D6E5800C20D7E /* HYTableSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764086E61D1D6E5800C20D7E /* HYTableSectionHeaderView.swift */; };
+		764086E91D1D6E7100C20D7E /* HYTableSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764086E81D1D6E7100C20D7E /* HYTableSectionHeaderView.xib */; };
+		7684D8521D23E1A2001CC5EF /* HYLifeCellImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7684D8511D23E1A2001CC5EF /* HYLifeCellImageView.swift */; };
+		7684D8541D23E1CF001CC5EF /* HYLifeCellImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7684D8531D23E1CF001CC5EF /* HYLifeCellImageView.xib */; };
+		7684D8581D23F531001CC5EF /* String-MT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7684D8571D23F531001CC5EF /* String-MT.swift */; };
+		7684D85A1D23FD43001CC5EF /* HYLifeCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7684D8591D23FD43001CC5EF /* HYLifeCellContentView.swift */; };
+		7684D85C1D23FD6B001CC5EF /* HYLifeCellContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7684D85B1D23FD6B001CC5EF /* HYLifeCellContentView.xib */; };
+		7684D85F1D24105D001CC5EF /* HYOCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7684D85E1D24105C001CC5EF /* HYOCUtils.m */; };
+		7684D8621D2420EF001CC5EF /* imgBgPlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7684D8611D2420EF001CC5EF /* imgBgPlaceHolder.png */; };
+		76A1DD991D1D754A00D83777 /* HYKnowledgeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1DD981D1D754A00D83777 /* HYKnowledgeItem.swift */; };
+		76A1DD9C1D1E338D00D83777 /* HYCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1DD9A1D1E338D00D83777 /* HYCollectionViewCell.swift */; };
+		76A1DD9D1D1E338D00D83777 /* HYCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A1DD9B1D1E338D00D83777 /* HYCollectionViewCell.xib */; };
+		76A1DD9F1D1E35BB00D83777 /* HYRoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1DD9E1D1E35BB00D83777 /* HYRoundImageView.swift */; };
+		76A1DDA61D1E396500D83777 /* HYCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1DDA41D1E396500D83777 /* HYCollectionTableViewCell.swift */; };
+		76A1DDB11D1E480200D83777 /* HYCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76A1DDB01D1E480200D83777 /* HYCollectionTableViewCell.xib */; };
+		76E33B381D28AB86007D9ACA /* HYWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B371D28AB86007D9ACA /* HYWebViewController.swift */; };
+		76E33B3A1D28AF54007D9ACA /* HYShopOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B391D28AF54007D9ACA /* HYShopOtherViewController.swift */; };
+		76E33B3C1D28E31E007D9ACA /* HYShopProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B3B1D28E31E007D9ACA /* HYShopProductViewController.swift */; };
+		76E33B3E1D28F84D007D9ACA /* HYShopProductBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B3D1D28F84D007D9ACA /* HYShopProductBottomView.swift */; };
+		76E33B401D28F858007D9ACA /* HYShopProductBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E33B3F1D28F858007D9ACA /* HYShopProductBottomView.xib */; };
+		76E33B421D290E09007D9ACA /* HYShopBottomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B411D290E09007D9ACA /* HYShopBottomBtn.swift */; };
+		76E33B4A1D2A0B21007D9ACA /* HYRecommendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B481D2A0B21007D9ACA /* HYRecommendCollectionViewCell.swift */; };
+		76E33B4B1D2A0B21007D9ACA /* HYRecommendCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E33B491D2A0B21007D9ACA /* HYRecommendCollectionViewCell.xib */; };
+		76E33B4D1D2A4078007D9ACA /* HYBaseMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B4C1D2A4078007D9ACA /* HYBaseMenuViewController.swift */; };
+		76E33B4F1D2A4724007D9ACA /* HYBaseRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B4E1D2A4724007D9ACA /* HYBaseRecommendViewController.swift */; };
+		76E33B521D2A57C5007D9ACA /* HYRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B511D2A57C5007D9ACA /* HYRecommendViewController.swift */; };
+		76E33B541D2A5A35007D9ACA /* HYBreakfast Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B531D2A5A35007D9ACA /* HYBreakfast Controller.swift */; };
+		76E33B561D2A5A55007D9ACA /* HYLunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B551D2A5A55007D9ACA /* HYLunchViewController.swift */; };
+		76E33B581D2A5A82007D9ACA /* HYDinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B571D2A5A82007D9ACA /* HYDinnerViewController.swift */; };
+		76E33B5A1D2BE6D2007D9ACA /* HYBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B591D2BE6D2007D9ACA /* HYBaseTableViewController.swift */; };
+		76E33B5C1D2BED38007D9ACA /* HYSettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B5B1D2BED38007D9ACA /* HYSettingGroup.swift */; };
+		76E33B5E1D2BF005007D9ACA /* HYSettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B5D1D2BF005007D9ACA /* HYSettingItem.swift */; };
+		76E33B601D2BF3EB007D9ACA /* HYBaseSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B5F1D2BF3EB007D9ACA /* HYBaseSettingTableViewCell.swift */; };
+		76E33B621D2BF9FE007D9ACA /* HYSettingArrowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B611D2BF9FE007D9ACA /* HYSettingArrowItem.swift */; };
+		76E33B641D2C8B1F007D9ACA /* HYSettingSwitchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B631D2C8B1F007D9ACA /* HYSettingSwitchItem.swift */; };
+		76E33B661D2CD867007D9ACA /* HYSettingChildController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B651D2CD867007D9ACA /* HYSettingChildController.swift */; };
+		76E33B691D2CE2FB007D9ACA /* HYMyBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B681D2CE2FB007D9ACA /* HYMyBillViewController.swift */; };
+		76E33B6B1D2D3417007D9ACA /* HYMeControllerTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B6A1D2D3417007D9ACA /* HYMeControllerTopView.swift */; };
+		76E33B6D1D2D3435007D9ACA /* HYMeControllerTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E33B6C1D2D3435007D9ACA /* HYMeControllerTopView.xib */; };
+		76E33B6F1D2D3B2E007D9ACA /* HYMeControllerTopBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B6E1D2D3B2E007D9ACA /* HYMeControllerTopBottomView.swift */; };
+		76E33B711D2D3B49007D9ACA /* HYMeControllerTopBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E33B701D2D3B49007D9ACA /* HYMeControllerTopBottomView.xib */; };
+		76E33B731D2D3E17007D9ACA /* HYMeControllerTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E33B721D2D3E17007D9ACA /* HYMeControllerTopCell.swift */; };
+		76F030511D2DE3B8008417E7 /* HYBorderRoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F030501D2DE3B8008417E7 /* HYBorderRoundImageView.swift */; };
+		76F030531D2DF68E008417E7 /* HYLabelBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F030521D2DF68E008417E7 /* HYLabelBtn.swift */; };
+		76F030551D2E3AF0008417E7 /* HYLifeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F030541D2E3AF0008417E7 /* HYLifeMenuViewController.swift */; };
+		76F030571D2E3E56008417E7 /* HYLifeNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F030561D2E3E56008417E7 /* HYLifeNewViewController.swift */; };
+		76F030591D2E3E93008417E7 /* HYLifeAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F030581D2E3E93008417E7 /* HYLifeAttentionViewController.swift */; };
+		76F0305B1D2E3EFE008417E7 /* HYLifeEpicureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0305A1D2E3EFE008417E7 /* HYLifeEpicureViewController.swift */; };
+		76F0305F1D2E487D008417E7 /* HYLifeBottomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0305E1D2E487D008417E7 /* HYLifeBottomTableViewCell.swift */; };
+		76F46B151D266298009AEB01 /* HYTopBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F46B141D266298009AEB01 /* HYTopBtn.swift */; };
+		76F716261D1FF78300E17FAA /* HYActiveUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F716251D1FF78300E17FAA /* HYActiveUser.swift */; };
+		76F716281D1FF79F00E17FAA /* HYBaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F716271D1FF79F00E17FAA /* HYBaseItem.swift */; };
+		76F716331D21403D00E17FAA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F716321D21403D00E17FAA /* libsqlite3.0.tbd */; };
+		88AC9B4479B2A419D83651D2 /* Pods_XiangHa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD014D59C570160867539C /* Pods_XiangHa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31FECCFF956AE79D4A8AA461 /* Pods-XiangHa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiangHa.release.xcconfig"; path = "Pods/Target Support Files/Pods-XiangHa/Pods-XiangHa.release.xcconfig"; sourceTree = "<group>"; };
+		760975F81D24E81000E1845B /* HYRoundCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYRoundCornerView.swift; sourceTree = "<group>"; };
+		760975FA1D24ED6B00E1845B /* HYLifeCellBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeCellBottomView.swift; sourceTree = "<group>"; };
+		760975FC1D24ED8B00E1845B /* HYLifeCellBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYLifeCellBottomView.xib; sourceTree = "<group>"; };
+		760976001D253CFF00E1845B /* HYDispatch_after.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYDispatch_after.swift; sourceTree = "<group>"; };
+		760976021D25414E00E1845B /* HYZoomBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYZoomBtn.swift; sourceTree = "<group>"; };
+		760976041D25926E00E1845B /* HYPublishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYPublishView.swift; sourceTree = "<group>"; };
+		760976061D25929E00E1845B /* HYPublishView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYPublishView.xib; sourceTree = "<group>"; };
+		761D5DDE1D223467003ADB62 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		761D5DF01D2258FD003ADB62 /* HYDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYDBManager.swift; sourceTree = "<group>"; };
+		761D5DF21D22728C003ADB62 /* HYShadeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYShadeView.swift; sourceTree = "<group>"; };
+		761D5DF41D227B58003ADB62 /* HYSpecialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYSpecialTableViewCell.swift; sourceTree = "<group>"; };
+		761D5DF51D227B58003ADB62 /* HYSpecialTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYSpecialTableViewCell.xib; sourceTree = "<group>"; };
+		761D5DF81D22AEEF003ADB62 /* HYSpecialItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYSpecialItem.swift; sourceTree = "<group>"; };
+		761D5DFA1D22B7EE003ADB62 /* HYBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYBaseTableViewCell.swift; sourceTree = "<group>"; };
+		761D5E011D22C0C9003ADB62 /* HYLifeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeTableViewCell.swift; sourceTree = "<group>"; };
+		761D5E031D22C153003ADB62 /* HYLifeCellTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeCellTopView.swift; sourceTree = "<group>"; };
+		761D5E051D22C170003ADB62 /* HYLifeCellTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYLifeCellTopView.xib; sourceTree = "<group>"; };
+		761D5E091D22C541003ADB62 /* HYLifeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeItem.swift; sourceTree = "<group>"; };
+		761D5E0C1D22CD35003ADB62 /* HYLifeViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeViewItem.swift; sourceTree = "<group>"; };
+		761D5E0E1D233E36003ADB62 /* HYCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCustomer.swift; sourceTree = "<group>"; };
+		761D5E101D23947E003ADB62 /* HYLifeCellTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeCellTitleView.swift; sourceTree = "<group>"; };
+		761D5E121D23949B003ADB62 /* HYLifeCellTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYLifeCellTitleView.xib; sourceTree = "<group>"; };
+		76385A851D352D4A0085FBB1 /* HYLifeTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		76385A871D354A330085FBB1 /* HYLifeTableViewTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeTableViewTopCell.swift; sourceTree = "<group>"; };
+		76385A881D354A330085FBB1 /* HYLifeTableViewTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYLifeTableViewTopCell.xib; sourceTree = "<group>"; };
+		76385A8B1D354AD70085FBB1 /* HYLifeCellBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeCellBtn.swift; sourceTree = "<group>"; };
+		76385A8D1D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeTableViewBottomCellTableViewCell.swift; sourceTree = "<group>"; };
+		76385A8E1D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYLifeTableViewBottomCellTableViewCell.xib; sourceTree = "<group>"; };
+		76385A911D355DE80085FBB1 /* HYLifeBottomTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeBottomTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		76385A931D366E030085FBB1 /* HYLifeBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeBaseTableViewController.swift; sourceTree = "<group>"; };
+		76385A951D367E490085FBB1 /* HYLifeTableViewBottomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeTableViewBottomCell.swift; sourceTree = "<group>"; };
+		764085D91D157AA300C20D7E /* XiangHa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiangHa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		764085DC1D157AA300C20D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		764085E61D157AA300C20D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		764085E81D157AA300C20D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764086091D15853C00C20D7E /* HYMainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMainNavigationViewController.swift; sourceTree = "<group>"; };
+		7640860B1D15857200C20D7E /* HYMainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMainTabBarViewController.swift; sourceTree = "<group>"; };
+		7640860D1D15861E00C20D7E /* HYADViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYADViewController.swift; sourceTree = "<group>"; };
+		764086111D15863B00C20D7E /* HYLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeViewController.swift; sourceTree = "<group>"; };
+		764086131D15864B00C20D7E /* HYMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMeViewController.swift; sourceTree = "<group>"; };
+		764086151D1586AE00C20D7E /* HYShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYShopViewController.swift; sourceTree = "<group>"; };
+		7640861D1D15896C00C20D7E /* HYPublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYPublishViewController.swift; sourceTree = "<group>"; };
+		764086201D15901500C20D7E /* XiangHa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XiangHa.swift; sourceTree = "<group>"; };
+		764086241D1594F800C20D7E /* View-Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View-Frame.swift"; sourceTree = "<group>"; };
+		764086281D15A6D100C20D7E /* UIImage-HYImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage-HYImage.swift"; sourceTree = "<group>"; };
+		7640862A1D1668DE00C20D7E /* HYADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYADViewController.xib; sourceTree = "<group>"; };
+		7640862D1D16861100C20D7E /* Launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@2x.png"; sourceTree = "<group>"; };
+		7640862E1D16861100C20D7E /* Launch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@3x.png"; sourceTree = "<group>"; };
+		7640862F1D16861100C20D7E /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		764086301D16861100C20D7E /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		764086311D16861100C20D7E /* LaunchImage-700-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		764086321D16861100C20D7E /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		764086331D16861100C20D7E /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		764086341D16861100C20D7E /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		764086351D16861100C20D7E /* LaunchImage-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		764086361D16861100C20D7E /* LaunchImage-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-Portrait~ipad.png"; sourceTree = "<group>"; };
+		764086371D16861100C20D7E /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		764086381D16861100C20D7E /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		764086451D1687B500C20D7E /* HYNetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYNetWorkTools.swift; sourceTree = "<group>"; };
+		764086471D1694E600C20D7E /* note */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = note; sourceTree = "<group>"; };
+		764086491D169E4500C20D7E /* HYADItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYADItem.swift; sourceTree = "<group>"; };
+		7640864F1D16B12400C20D7E /* UIBarButtonItem-Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Item.swift"; sourceTree = "<group>"; };
+		764086531D16D9BB00C20D7E /* HYOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYOrderViewController.swift; sourceTree = "<group>"; };
+		764086551D16E43600C20D7E /* HYDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYDiscoverViewController.swift; sourceTree = "<group>"; };
+		764086591D175A5200C20D7E /* HYCookTopScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookTopScrollerView.swift; sourceTree = "<group>"; };
+		7640865F1D17684E00C20D7E /* HYCookTopScrollerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYCookTopScrollerView.xib; sourceTree = "<group>"; };
+		764086621D17769500C20D7E /* HYRoundCornerBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYRoundCornerBtn.swift; sourceTree = "<group>"; };
+		7640866C1D181D0400C20D7E /* HYCookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookViewController.swift; sourceTree = "<group>"; };
+		764086741D19046000C20D7E /* HYCookTopImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookTopImageView.swift; sourceTree = "<group>"; };
+		764086761D19046900C20D7E /* HYCookTopImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYCookTopImageView.xib; sourceTree = "<group>"; };
+		764086AD1D197EFC00C20D7E /* HYCookViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookViewItem.swift; sourceTree = "<group>"; };
+		764086B21D19A18900C20D7E /* HYCookSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookSearchViewController.swift; sourceTree = "<group>"; };
+		764086B41D1A2E7A00C20D7E /* HYSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYSearchView.swift; sourceTree = "<group>"; };
+		764086B61D1A2E8400C20D7E /* HYSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYSearchView.xib; sourceTree = "<group>"; };
+		764086B81D1A318300C20D7E /* HYBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYBaseView.swift; path = ../../Other/View/HYBaseView.swift; sourceTree = "<group>"; };
+		764086BA1D1A437000C20D7E /* HYShopViewSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYShopViewSearchController.swift; sourceTree = "<group>"; };
+		764086BE1D1A61F700C20D7E /* HYTableViewTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYTableViewTopCell.swift; path = ../HYTableViewTopCell.swift; sourceTree = "<group>"; };
+		764086BF1D1A61F700C20D7E /* HYTableViewTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HYTableViewTopCell.xib; path = ../HYTableViewTopCell.xib; sourceTree = "<group>"; };
+		764086C41D1B029B00C20D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XiangHa/Assets.xcassets; sourceTree = "<group>"; };
+		764086C61D1B083500C20D7E /* HYTopCellBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYTopCellBtn.swift; sourceTree = "<group>"; };
+		764086CA1D1C921300C20D7E /* HYTitleBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYTitleBaseViewController.swift; sourceTree = "<group>"; };
+		764086CC1D1C935B00C20D7E /* HYCookGoodFishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookGoodFishViewController.swift; sourceTree = "<group>"; };
+		764086CE1D1C9CC300C20D7E /* HYCookDeliciousViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookDeliciousViewController.swift; sourceTree = "<group>"; };
+		764086D01D1C9D4D00C20D7E /* HYCookVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookVideoViewController.swift; sourceTree = "<group>"; };
+		764086D21D1C9E0600C20D7E /* HYCookClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCookClassViewController.swift; sourceTree = "<group>"; };
+		764086D91D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKnowLedgeTableViewCell.swift; sourceTree = "<group>"; };
+		764086DA1D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYKnowLedgeTableViewCell.xib; sourceTree = "<group>"; };
+		764086DD1D1CDDA500C20D7E /* HYStretchableTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYStretchableTableHeaderView.swift; sourceTree = "<group>"; };
+		764086E21D1D018400C20D7E /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		764086E41D1D676100C20D7E /* HYRoundCornerImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYRoundCornerImageView.swift; sourceTree = "<group>"; };
+		764086E61D1D6E5800C20D7E /* HYTableSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYTableSectionHeaderView.swift; sourceTree = "<group>"; };
+		764086E81D1D6E7100C20D7E /* HYTableSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYTableSectionHeaderView.xib; sourceTree = "<group>"; };
+		7684D8511D23E1A2001CC5EF /* HYLifeCellImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeCellImageView.swift; sourceTree = "<group>"; };
+		7684D8531D23E1CF001CC5EF /* HYLifeCellImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYLifeCellImageView.xib; sourceTree = "<group>"; };
+		7684D8571D23F531001CC5EF /* String-MT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-MT.swift"; sourceTree = "<group>"; };
+		7684D8591D23FD43001CC5EF /* HYLifeCellContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeCellContentView.swift; sourceTree = "<group>"; };
+		7684D85B1D23FD6B001CC5EF /* HYLifeCellContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYLifeCellContentView.xib; sourceTree = "<group>"; };
+		7684D85D1D24105C001CC5EF /* HYOCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOCUtils.h; sourceTree = "<group>"; };
+		7684D85E1D24105C001CC5EF /* HYOCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOCUtils.m; sourceTree = "<group>"; };
+		7684D8611D2420EF001CC5EF /* imgBgPlaceHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgBgPlaceHolder.png; sourceTree = "<group>"; };
+		76A1DD981D1D754A00D83777 /* HYKnowledgeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKnowledgeItem.swift; sourceTree = "<group>"; };
+		76A1DD9A1D1E338D00D83777 /* HYCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCollectionViewCell.swift; sourceTree = "<group>"; };
+		76A1DD9B1D1E338D00D83777 /* HYCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYCollectionViewCell.xib; sourceTree = "<group>"; };
+		76A1DD9E1D1E35BB00D83777 /* HYRoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYRoundImageView.swift; sourceTree = "<group>"; };
+		76A1DDA41D1E396500D83777 /* HYCollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		76A1DDB01D1E480200D83777 /* HYCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		76E33B371D28AB86007D9ACA /* HYWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYWebViewController.swift; sourceTree = "<group>"; };
+		76E33B391D28AF54007D9ACA /* HYShopOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYShopOtherViewController.swift; sourceTree = "<group>"; };
+		76E33B3B1D28E31E007D9ACA /* HYShopProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYShopProductViewController.swift; sourceTree = "<group>"; };
+		76E33B3D1D28F84D007D9ACA /* HYShopProductBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYShopProductBottomView.swift; sourceTree = "<group>"; };
+		76E33B3F1D28F858007D9ACA /* HYShopProductBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYShopProductBottomView.xib; sourceTree = "<group>"; };
+		76E33B411D290E09007D9ACA /* HYShopBottomBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYShopBottomBtn.swift; sourceTree = "<group>"; };
+		76E33B481D2A0B21007D9ACA /* HYRecommendCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYRecommendCollectionViewCell.swift; sourceTree = "<group>"; };
+		76E33B491D2A0B21007D9ACA /* HYRecommendCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYRecommendCollectionViewCell.xib; sourceTree = "<group>"; };
+		76E33B4C1D2A4078007D9ACA /* HYBaseMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYBaseMenuViewController.swift; sourceTree = "<group>"; };
+		76E33B4E1D2A4724007D9ACA /* HYBaseRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYBaseRecommendViewController.swift; sourceTree = "<group>"; };
+		76E33B511D2A57C5007D9ACA /* HYRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYRecommendViewController.swift; sourceTree = "<group>"; };
+		76E33B531D2A5A35007D9ACA /* HYBreakfast Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HYBreakfast Controller.swift"; sourceTree = "<group>"; };
+		76E33B551D2A5A55007D9ACA /* HYLunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLunchViewController.swift; sourceTree = "<group>"; };
+		76E33B571D2A5A82007D9ACA /* HYDinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYDinnerViewController.swift; sourceTree = "<group>"; };
+		76E33B591D2BE6D2007D9ACA /* HYBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYBaseTableViewController.swift; path = ../../Base/Controller/HYBaseTableViewController.swift; sourceTree = "<group>"; };
+		76E33B5B1D2BED38007D9ACA /* HYSettingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYSettingGroup.swift; path = ../../Base/Model/HYSettingGroup.swift; sourceTree = "<group>"; };
+		76E33B5D1D2BF005007D9ACA /* HYSettingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYSettingItem.swift; path = ../../Base/Model/HYSettingItem.swift; sourceTree = "<group>"; };
+		76E33B5F1D2BF3EB007D9ACA /* HYBaseSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYBaseSettingTableViewCell.swift; path = ../../Base/View/HYBaseSettingTableViewCell.swift; sourceTree = "<group>"; };
+		76E33B611D2BF9FE007D9ACA /* HYSettingArrowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYSettingArrowItem.swift; path = ../../Base/Model/HYSettingArrowItem.swift; sourceTree = "<group>"; };
+		76E33B631D2C8B1F007D9ACA /* HYSettingSwitchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYSettingSwitchItem.swift; path = ../../Base/Model/HYSettingSwitchItem.swift; sourceTree = "<group>"; };
+		76E33B651D2CD867007D9ACA /* HYSettingChildController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYSettingChildController.swift; path = ../HYSettingChildController.swift; sourceTree = "<group>"; };
+		76E33B681D2CE2FB007D9ACA /* HYMyBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMyBillViewController.swift; sourceTree = "<group>"; };
+		76E33B6A1D2D3417007D9ACA /* HYMeControllerTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMeControllerTopView.swift; sourceTree = "<group>"; };
+		76E33B6C1D2D3435007D9ACA /* HYMeControllerTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYMeControllerTopView.xib; sourceTree = "<group>"; };
+		76E33B6E1D2D3B2E007D9ACA /* HYMeControllerTopBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMeControllerTopBottomView.swift; sourceTree = "<group>"; };
+		76E33B701D2D3B49007D9ACA /* HYMeControllerTopBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYMeControllerTopBottomView.xib; sourceTree = "<group>"; };
+		76E33B721D2D3E17007D9ACA /* HYMeControllerTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYMeControllerTopCell.swift; sourceTree = "<group>"; };
+		76F030501D2DE3B8008417E7 /* HYBorderRoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYBorderRoundImageView.swift; sourceTree = "<group>"; };
+		76F030521D2DF68E008417E7 /* HYLabelBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLabelBtn.swift; sourceTree = "<group>"; };
+		76F030541D2E3AF0008417E7 /* HYLifeMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeMenuViewController.swift; sourceTree = "<group>"; };
+		76F030561D2E3E56008417E7 /* HYLifeNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeNewViewController.swift; sourceTree = "<group>"; };
+		76F030581D2E3E93008417E7 /* HYLifeAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeAttentionViewController.swift; sourceTree = "<group>"; };
+		76F0305A1D2E3EFE008417E7 /* HYLifeEpicureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeEpicureViewController.swift; sourceTree = "<group>"; };
+		76F0305E1D2E487D008417E7 /* HYLifeBottomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYLifeBottomTableViewCell.swift; sourceTree = "<group>"; };
+		76F46B141D266298009AEB01 /* HYTopBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYTopBtn.swift; path = ../../Main/View/HYTopBtn.swift; sourceTree = "<group>"; };
+		76F716251D1FF78300E17FAA /* HYActiveUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYActiveUser.swift; sourceTree = "<group>"; };
+		76F716271D1FF79F00E17FAA /* HYBaseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HYBaseItem.swift; path = ../../Cook/Model/HYBaseItem.swift; sourceTree = "<group>"; };
+		76F716321D21403D00E17FAA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7FFAB9BEE104B75162FE226F /* Pods-XiangHa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiangHa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XiangHa/Pods-XiangHa.debug.xcconfig"; sourceTree = "<group>"; };
+		D0AD014D59C570160867539C /* Pods_XiangHa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiangHa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		764085D61D157AA300C20D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F716331D21403D00E17FAA /* libsqlite3.0.tbd in Frameworks */,
+				88AC9B4479B2A419D83651D2 /* Pods_XiangHa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761D5DB41D222875003ADB62 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		761D5E001D22C005003ADB62 /* LifeCell */ = {
+			isa = PBXGroup;
+			children = (
+				761D5E011D22C0C9003ADB62 /* HYLifeTableViewCell.swift */,
+				761D5E031D22C153003ADB62 /* HYLifeCellTopView.swift */,
+				761D5E051D22C170003ADB62 /* HYLifeCellTopView.xib */,
+				761D5E101D23947E003ADB62 /* HYLifeCellTitleView.swift */,
+				761D5E121D23949B003ADB62 /* HYLifeCellTitleView.xib */,
+				7684D8511D23E1A2001CC5EF /* HYLifeCellImageView.swift */,
+				7684D8531D23E1CF001CC5EF /* HYLifeCellImageView.xib */,
+				7684D8591D23FD43001CC5EF /* HYLifeCellContentView.swift */,
+				7684D85B1D23FD6B001CC5EF /* HYLifeCellContentView.xib */,
+				760975FA1D24ED6B00E1845B /* HYLifeCellBottomView.swift */,
+				760975FC1D24ED8B00E1845B /* HYLifeCellBottomView.xib */,
+			);
+			path = LifeCell;
+			sourceTree = "<group>";
+		};
+		761D5E0B1D22CC75003ADB62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				761D5E0C1D22CD35003ADB62 /* HYLifeViewItem.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		764085D01D157AA300C20D7E = {
+			isa = PBXGroup;
+			children = (
+				764085DB1D157AA300C20D7E /* XiangHa */,
+				764086C41D1B029B00C20D7E /* Assets.xcassets */,
+				764085DA1D157AA300C20D7E /* Products */,
+				8DBBDA7705D1D882BE706FB3 /* Pods */,
+				A1A90FA278A2037549204855 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		764085DA1D157AA300C20D7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				764085D91D157AA300C20D7E /* XiangHa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		764085DB1D157AA300C20D7E /* XiangHa */ = {
+			isa = PBXGroup;
+			children = (
+				764085EE1D157F2D00C20D7E /* Classes */,
+				764085DC1D157AA300C20D7E /* AppDelegate.swift */,
+				764085E51D157AA300C20D7E /* LaunchScreen.storyboard */,
+				764085E81D157AA300C20D7E /* Info.plist */,
+				761D5DDE1D223467003ADB62 /* Bridge.h */,
+			);
+			path = XiangHa;
+			sourceTree = "<group>";
+		};
+		764085EE1D157F2D00C20D7E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				761D5DB41D222875003ADB62 /* Framework */,
+				76F716291D213AE800E17FAA /* DB */,
+				764086C81D1C916100C20D7E /* Base */,
+				764085FB1D157F2D00C20D7E /* Main */,
+				764085EF1D157F2D00C20D7E /* AD */,
+				764085F31D157F2D00C20D7E /* Cook */,
+				764085F71D157F2D00C20D7E /* Life */,
+				764085FF1D157F2D00C20D7E /* Me */,
+				7640864B1D16AF9500C20D7E /* Setting */,
+				764086041D157F2D00C20D7E /* Shop */,
+				764086171D1587A700C20D7E /* Publish */,
+				764086031D157F2D00C20D7E /* Other */,
+				764086081D157F2D00C20D7E /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		764085EF1D157F2D00C20D7E /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				764085F01D157F2D00C20D7E /* Controller */,
+				764085F11D157F2D00C20D7E /* Model */,
+				764085F21D157F2D00C20D7E /* View */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		764085F01D157F2D00C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7640860D1D15861E00C20D7E /* HYADViewController.swift */,
+				7640862A1D1668DE00C20D7E /* HYADViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		764085F11D157F2D00C20D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				764086491D169E4500C20D7E /* HYADItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		764085F21D157F2D00C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764085F31D157F2D00C20D7E /* Cook */ = {
+			isa = PBXGroup;
+			children = (
+				761D5E0B1D22CC75003ADB62 /* ViewModel */,
+				764085F41D157F2D00C20D7E /* Controller */,
+				764085F51D157F2D00C20D7E /* Model */,
+				764085F61D157F2D00C20D7E /* View */,
+			);
+			path = Cook;
+			sourceTree = "<group>";
+		};
+		764085F41D157F2D00C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				764086AF1D19A09900C20D7E /* childController */,
+				76E33B501D2A5790007D9ACA /* recommendController */,
+				7640866C1D181D0400C20D7E /* HYCookViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		764085F51D157F2D00C20D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				764086AD1D197EFC00C20D7E /* HYCookViewItem.swift */,
+				76A1DD981D1D754A00D83777 /* HYKnowledgeItem.swift */,
+				76F716251D1FF78300E17FAA /* HYActiveUser.swift */,
+				761D5DF81D22AEEF003ADB62 /* HYSpecialItem.swift */,
+				761D5E091D22C541003ADB62 /* HYLifeItem.swift */,
+				761D5E0E1D233E36003ADB62 /* HYCustomer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		764085F61D157F2D00C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				764086D81D1CABC000C20D7E /* cell */,
+				761D5E001D22C005003ADB62 /* LifeCell */,
+				76E33B471D2A0AD7007D9ACA /* recommendCell */,
+				764086591D175A5200C20D7E /* HYCookTopScrollerView.swift */,
+				7640865F1D17684E00C20D7E /* HYCookTopScrollerView.xib */,
+				764086741D19046000C20D7E /* HYCookTopImageView.swift */,
+				764086761D19046900C20D7E /* HYCookTopImageView.xib */,
+				764086C61D1B083500C20D7E /* HYTopCellBtn.swift */,
+				764086DD1D1CDDA500C20D7E /* HYStretchableTableHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764085F71D157F2D00C20D7E /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				764085F81D157F2D00C20D7E /* Controller */,
+				764085F91D157F2D00C20D7E /* Model */,
+				764085FA1D157F2D00C20D7E /* View */,
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		764085F81D157F2D00C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				764086111D15863B00C20D7E /* HYLifeViewController.swift */,
+				764086551D16E43600C20D7E /* HYDiscoverViewController.swift */,
+				76F030541D2E3AF0008417E7 /* HYLifeMenuViewController.swift */,
+				76F030561D2E3E56008417E7 /* HYLifeNewViewController.swift */,
+				76F030581D2E3E93008417E7 /* HYLifeAttentionViewController.swift */,
+				76F0305A1D2E3EFE008417E7 /* HYLifeEpicureViewController.swift */,
+				76385A931D366E030085FBB1 /* HYLifeBaseTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		764085F91D157F2D00C20D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		764085FA1D157F2D00C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76F0305E1D2E487D008417E7 /* HYLifeBottomTableViewCell.swift */,
+				76385A851D352D4A0085FBB1 /* HYLifeTableViewHeaderFooterView.swift */,
+				76385A871D354A330085FBB1 /* HYLifeTableViewTopCell.swift */,
+				76385A881D354A330085FBB1 /* HYLifeTableViewTopCell.xib */,
+				76385A8B1D354AD70085FBB1 /* HYLifeCellBtn.swift */,
+				76385A8D1D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.swift */,
+				76385A8E1D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.xib */,
+				76385A911D355DE80085FBB1 /* HYLifeBottomTableViewHeaderFooterView.swift */,
+				76385A951D367E490085FBB1 /* HYLifeTableViewBottomCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764085FB1D157F2D00C20D7E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				764085FC1D157F2D00C20D7E /* Controller */,
+				764085FD1D157F2D00C20D7E /* Model */,
+				764085FE1D157F2D00C20D7E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		764085FC1D157F2D00C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				764086091D15853C00C20D7E /* HYMainNavigationViewController.swift */,
+				7640860B1D15857200C20D7E /* HYMainTabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		764085FD1D157F2D00C20D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		764085FE1D157F2D00C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				760976041D25926E00E1845B /* HYPublishView.swift */,
+				760976061D25929E00E1845B /* HYPublishView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764085FF1D157F2D00C20D7E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				764086001D157F2D00C20D7E /* Controller */,
+				764086011D157F2D00C20D7E /* Model */,
+				764086021D157F2D00C20D7E /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		764086001D157F2D00C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B671D2CE29B007D9ACA /* childController */,
+				764086131D15864B00C20D7E /* HYMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		764086011D157F2D00C20D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		764086021D157F2D00C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B6A1D2D3417007D9ACA /* HYMeControllerTopView.swift */,
+				76E33B6C1D2D3435007D9ACA /* HYMeControllerTopView.xib */,
+				76E33B6E1D2D3B2E007D9ACA /* HYMeControllerTopBottomView.swift */,
+				76E33B701D2D3B49007D9ACA /* HYMeControllerTopBottomView.xib */,
+				76E33B721D2D3E17007D9ACA /* HYMeControllerTopCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764086031D157F2D00C20D7E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				764086611D1775E600C20D7E /* View */,
+				7684D8601D2420E2001CC5EF /* ImageFile */,
+				7640862C1D16861100C20D7E /* LaunchImageFile */,
+				764086231D1594B200C20D7E /* Category */,
+				764086201D15901500C20D7E /* XiangHa.swift */,
+				764086471D1694E600C20D7E /* note */,
+				7684D85D1D24105C001CC5EF /* HYOCUtils.h */,
+				7684D85E1D24105C001CC5EF /* HYOCUtils.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		764086041D157F2D00C20D7E /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				764086051D157F2D00C20D7E /* Controller */,
+				764086061D157F2D00C20D7E /* Model */,
+				764086071D157F2D00C20D7E /* View */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		764086051D157F2D00C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B361D28A9DB007D9ACA /* childController */,
+				764086151D1586AE00C20D7E /* HYShopViewController.swift */,
+				764086531D16D9BB00C20D7E /* HYOrderViewController.swift */,
+				764086BA1D1A437000C20D7E /* HYShopViewSearchController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		764086061D157F2D00C20D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		764086071D157F2D00C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B3D1D28F84D007D9ACA /* HYShopProductBottomView.swift */,
+				76E33B3F1D28F858007D9ACA /* HYShopProductBottomView.xib */,
+				76E33B411D290E09007D9ACA /* HYShopBottomBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764086081D157F2D00C20D7E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				764086451D1687B500C20D7E /* HYNetWorkTools.swift */,
+				760976001D253CFF00E1845B /* HYDispatch_after.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		764086171D1587A700C20D7E /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				764086181D1587A700C20D7E /* Controller */,
+				7640861A1D1587A700C20D7E /* Model */,
+				7640861B1D1587A700C20D7E /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		764086181D1587A700C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7640861D1D15896C00C20D7E /* HYPublishViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7640861A1D1587A700C20D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7640861B1D1587A700C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764086231D1594B200C20D7E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				764086241D1594F800C20D7E /* View-Frame.swift */,
+				764086281D15A6D100C20D7E /* UIImage-HYImage.swift */,
+				7640864F1D16B12400C20D7E /* UIBarButtonItem-Item.swift */,
+				764086E21D1D018400C20D7E /* UIButton-Extension.swift */,
+				7684D8571D23F531001CC5EF /* String-MT.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7640862C1D16861100C20D7E /* LaunchImageFile */ = {
+			isa = PBXGroup;
+			children = (
+				7640862D1D16861100C20D7E /* Launch@2x.png */,
+				7640862E1D16861100C20D7E /* Launch@3x.png */,
+				7640862F1D16861100C20D7E /* LaunchImage-568h@2x.png */,
+				764086301D16861100C20D7E /* LaunchImage-700-568h@2x.png */,
+				764086311D16861100C20D7E /* LaunchImage-700-Portrait@2x~ipad.png */,
+				764086321D16861100C20D7E /* LaunchImage-700@2x.png */,
+				764086331D16861100C20D7E /* LaunchImage-800-667h@2x.png */,
+				764086341D16861100C20D7E /* LaunchImage-800-Portrait-736h@3x.png */,
+				764086351D16861100C20D7E /* LaunchImage-Portrait@2x~ipad.png */,
+				764086361D16861100C20D7E /* LaunchImage-Portrait~ipad.png */,
+				764086371D16861100C20D7E /* LaunchImage.png */,
+				764086381D16861100C20D7E /* LaunchImage@2x.png */,
+			);
+			path = LaunchImageFile;
+			sourceTree = "<group>";
+		};
+		7640864B1D16AF9500C20D7E /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7640864C1D16AF9500C20D7E /* Controller */,
+				7640864D1D16AF9500C20D7E /* Model */,
+				7640864E1D16AF9500C20D7E /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		7640864C1D16AF9500C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B591D2BE6D2007D9ACA /* HYBaseTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7640864D1D16AF9500C20D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B5B1D2BED38007D9ACA /* HYSettingGroup.swift */,
+				76E33B5D1D2BF005007D9ACA /* HYSettingItem.swift */,
+				76E33B611D2BF9FE007D9ACA /* HYSettingArrowItem.swift */,
+				76E33B631D2C8B1F007D9ACA /* HYSettingSwitchItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7640864E1D16AF9500C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B5F1D2BF3EB007D9ACA /* HYBaseSettingTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764086611D1775E600C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				764086621D17769500C20D7E /* HYRoundCornerBtn.swift */,
+				764086B41D1A2E7A00C20D7E /* HYSearchView.swift */,
+				764086B61D1A2E8400C20D7E /* HYSearchView.xib */,
+				764086E41D1D676100C20D7E /* HYRoundCornerImageView.swift */,
+				76A1DD9E1D1E35BB00D83777 /* HYRoundImageView.swift */,
+				761D5DF21D22728C003ADB62 /* HYShadeView.swift */,
+				760975F81D24E81000E1845B /* HYRoundCornerView.swift */,
+				760976021D25414E00E1845B /* HYZoomBtn.swift */,
+				76F030501D2DE3B8008417E7 /* HYBorderRoundImageView.swift */,
+				76F030521D2DF68E008417E7 /* HYLabelBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		764086AF1D19A09900C20D7E /* childController */ = {
+			isa = PBXGroup;
+			children = (
+				764086B21D19A18900C20D7E /* HYCookSearchViewController.swift */,
+				764086CE1D1C9CC300C20D7E /* HYCookDeliciousViewController.swift */,
+				764086CC1D1C935B00C20D7E /* HYCookGoodFishViewController.swift */,
+				764086D01D1C9D4D00C20D7E /* HYCookVideoViewController.swift */,
+				764086D21D1C9E0600C20D7E /* HYCookClassViewController.swift */,
+			);
+			path = childController;
+			sourceTree = "<group>";
+		};
+		764086C81D1C916100C20D7E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				76F716341D215D4100E17FAA /* Model */,
+				764086C91D1C916100C20D7E /* Controller */,
+				764086DF1D1CFE4900C20D7E /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		764086C91D1C916100C20D7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				764086CA1D1C921300C20D7E /* HYTitleBaseViewController.swift */,
+				76E33B371D28AB86007D9ACA /* HYWebViewController.swift */,
+				76E33B4C1D2A4078007D9ACA /* HYBaseMenuViewController.swift */,
+				76E33B4E1D2A4724007D9ACA /* HYBaseRecommendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		764086D81D1CABC000C20D7E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				764086BE1D1A61F700C20D7E /* HYTableViewTopCell.swift */,
+				764086BF1D1A61F700C20D7E /* HYTableViewTopCell.xib */,
+				764086D91D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.swift */,
+				764086DA1D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.xib */,
+				764086E61D1D6E5800C20D7E /* HYTableSectionHeaderView.swift */,
+				764086E81D1D6E7100C20D7E /* HYTableSectionHeaderView.xib */,
+				76A1DD9A1D1E338D00D83777 /* HYCollectionViewCell.swift */,
+				76A1DD9B1D1E338D00D83777 /* HYCollectionViewCell.xib */,
+				76A1DDA41D1E396500D83777 /* HYCollectionTableViewCell.swift */,
+				76A1DDB01D1E480200D83777 /* HYCollectionTableViewCell.xib */,
+				761D5DF41D227B58003ADB62 /* HYSpecialTableViewCell.swift */,
+				761D5DF51D227B58003ADB62 /* HYSpecialTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		764086DF1D1CFE4900C20D7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				764086B81D1A318300C20D7E /* HYBaseView.swift */,
+				761D5DFA1D22B7EE003ADB62 /* HYBaseTableViewCell.swift */,
+				76F46B141D266298009AEB01 /* HYTopBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7684D8601D2420E2001CC5EF /* ImageFile */ = {
+			isa = PBXGroup;
+			children = (
+				7684D8611D2420EF001CC5EF /* imgBgPlaceHolder.png */,
+			);
+			path = ImageFile;
+			sourceTree = "<group>";
+		};
+		76E33B361D28A9DB007D9ACA /* childController */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B391D28AF54007D9ACA /* HYShopOtherViewController.swift */,
+				76E33B3B1D28E31E007D9ACA /* HYShopProductViewController.swift */,
+			);
+			path = childController;
+			sourceTree = "<group>";
+		};
+		76E33B471D2A0AD7007D9ACA /* recommendCell */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B481D2A0B21007D9ACA /* HYRecommendCollectionViewCell.swift */,
+				76E33B491D2A0B21007D9ACA /* HYRecommendCollectionViewCell.xib */,
+			);
+			path = recommendCell;
+			sourceTree = "<group>";
+		};
+		76E33B501D2A5790007D9ACA /* recommendController */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B511D2A57C5007D9ACA /* HYRecommendViewController.swift */,
+				76E33B531D2A5A35007D9ACA /* HYBreakfast Controller.swift */,
+				76E33B551D2A5A55007D9ACA /* HYLunchViewController.swift */,
+				76E33B571D2A5A82007D9ACA /* HYDinnerViewController.swift */,
+			);
+			path = recommendController;
+			sourceTree = "<group>";
+		};
+		76E33B671D2CE29B007D9ACA /* childController */ = {
+			isa = PBXGroup;
+			children = (
+				76E33B651D2CD867007D9ACA /* HYSettingChildController.swift */,
+				76E33B681D2CE2FB007D9ACA /* HYMyBillViewController.swift */,
+			);
+			path = childController;
+			sourceTree = "<group>";
+		};
+		76F716291D213AE800E17FAA /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				761D5DF01D2258FD003ADB62 /* HYDBManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		76F716341D215D4100E17FAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76F716271D1FF79F00E17FAA /* HYBaseItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DBBDA7705D1D882BE706FB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FFAB9BEE104B75162FE226F /* Pods-XiangHa.debug.xcconfig */,
+				31FECCFF956AE79D4A8AA461 /* Pods-XiangHa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1A90FA278A2037549204855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76F716321D21403D00E17FAA /* libsqlite3.0.tbd */,
+				D0AD014D59C570160867539C /* Pods_XiangHa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		764085D81D157AA300C20D7E /* XiangHa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764085EB1D157AA300C20D7E /* Build configuration list for PBXNativeTarget "XiangHa" */;
+			buildPhases = (
+				89D67474174E3894C8B05E8A /* 📦 Check Pods Manifest.lock */,
+				764085D51D157AA300C20D7E /* Sources */,
+				764085D61D157AA300C20D7E /* Frameworks */,
+				764085D71D157AA300C20D7E /* Resources */,
+				383E7F9B0B0279519A68A19E /* 📦 Embed Pods Frameworks */,
+				A560A8A500CD6971406CDC3C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiangHa;
+			productName = XiangHa;
+			productReference = 764085D91D157AA300C20D7E /* XiangHa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		764085D11D157AA300C20D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HY;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ios;
+				TargetAttributes = {
+					764085D81D157AA300C20D7E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P7JDGQ4DFV;
+					};
+				};
+			};
+			buildConfigurationList = 764085D41D157AA300C20D7E /* Build configuration list for PBXProject "XiangHa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 764085D01D157AA300C20D7E;
+			productRefGroup = 764085DA1D157AA300C20D7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				764085D81D157AA300C20D7E /* XiangHa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		764085D71D157AA300C20D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760975FD1D24ED8B00E1845B /* HYLifeCellBottomView.xib in Resources */,
+				7640863C1D16861100C20D7E /* LaunchImage-700-568h@2x.png in Resources */,
+				7640863D1D16861100C20D7E /* LaunchImage-700-Portrait@2x~ipad.png in Resources */,
+				764086411D16861100C20D7E /* LaunchImage-Portrait@2x~ipad.png in Resources */,
+				7684D8541D23E1CF001CC5EF /* HYLifeCellImageView.xib in Resources */,
+				7640862B1D1668DE00C20D7E /* HYADViewController.xib in Resources */,
+				761D5DF71D227B58003ADB62 /* HYSpecialTableViewCell.xib in Resources */,
+				764086C51D1B029B00C20D7E /* Assets.xcassets in Resources */,
+				76A1DD9D1D1E338D00D83777 /* HYCollectionViewCell.xib in Resources */,
+				76A1DDB11D1E480200D83777 /* HYCollectionTableViewCell.xib in Resources */,
+				764086DC1D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.xib in Resources */,
+				764086441D16861100C20D7E /* LaunchImage@2x.png in Resources */,
+				764086481D1694E600C20D7E /* note in Resources */,
+				764086771D19046900C20D7E /* HYCookTopImageView.xib in Resources */,
+				764086391D16861100C20D7E /* Launch@2x.png in Resources */,
+				7640863A1D16861100C20D7E /* Launch@3x.png in Resources */,
+				7640863F1D16861100C20D7E /* LaunchImage-800-667h@2x.png in Resources */,
+				764086B71D1A2E8400C20D7E /* HYSearchView.xib in Resources */,
+				76E33B711D2D3B49007D9ACA /* HYMeControllerTopBottomView.xib in Resources */,
+				7684D85C1D23FD6B001CC5EF /* HYLifeCellContentView.xib in Resources */,
+				76E33B4B1D2A0B21007D9ACA /* HYRecommendCollectionViewCell.xib in Resources */,
+				764085E71D157AA300C20D7E /* LaunchScreen.storyboard in Resources */,
+				764086C11D1A61F700C20D7E /* HYTableViewTopCell.xib in Resources */,
+				760976071D25929E00E1845B /* HYPublishView.xib in Resources */,
+				764086401D16861100C20D7E /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				764086421D16861100C20D7E /* LaunchImage-Portrait~ipad.png in Resources */,
+				764086601D17684E00C20D7E /* HYCookTopScrollerView.xib in Resources */,
+				764086431D16861100C20D7E /* LaunchImage.png in Resources */,
+				76E33B6D1D2D3435007D9ACA /* HYMeControllerTopView.xib in Resources */,
+				76385A8A1D354A330085FBB1 /* HYLifeTableViewTopCell.xib in Resources */,
+				764086E91D1D6E7100C20D7E /* HYTableSectionHeaderView.xib in Resources */,
+				7640863E1D16861100C20D7E /* LaunchImage-700@2x.png in Resources */,
+				7640863B1D16861100C20D7E /* LaunchImage-568h@2x.png in Resources */,
+				761D5E061D22C170003ADB62 /* HYLifeCellTopView.xib in Resources */,
+				7684D8621D2420EF001CC5EF /* imgBgPlaceHolder.png in Resources */,
+				76385A901D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.xib in Resources */,
+				76E33B401D28F858007D9ACA /* HYShopProductBottomView.xib in Resources */,
+				761D5E131D23949B003ADB62 /* HYLifeCellTitleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		383E7F9B0B0279519A68A19E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XiangHa/Pods-XiangHa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D67474174E3894C8B05E8A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A560A8A500CD6971406CDC3C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XiangHa/Pods-XiangHa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		764085D51D157AA300C20D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76385A921D355DE80085FBB1 /* HYLifeBottomTableViewHeaderFooterView.swift in Sources */,
+				76E33B601D2BF3EB007D9ACA /* HYBaseSettingTableViewCell.swift in Sources */,
+				76A1DD991D1D754A00D83777 /* HYKnowledgeItem.swift in Sources */,
+				76E33B731D2D3E17007D9ACA /* HYMeControllerTopCell.swift in Sources */,
+				760976051D25926E00E1845B /* HYPublishView.swift in Sources */,
+				764086AE1D197EFC00C20D7E /* HYCookViewItem.swift in Sources */,
+				764086631D17769500C20D7E /* HYRoundCornerBtn.swift in Sources */,
+				76E33B561D2A5A55007D9ACA /* HYLunchViewController.swift in Sources */,
+				76E33B3E1D28F84D007D9ACA /* HYShopProductBottomView.swift in Sources */,
+				7640864A1D169E4600C20D7E /* HYADItem.swift in Sources */,
+				761D5E0F1D233E36003ADB62 /* HYCustomer.swift in Sources */,
+				764086CB1D1C921300C20D7E /* HYTitleBaseViewController.swift in Sources */,
+				760975FB1D24ED6B00E1845B /* HYLifeCellBottomView.swift in Sources */,
+				761D5DF91D22AEEF003ADB62 /* HYSpecialItem.swift in Sources */,
+				7684D8581D23F531001CC5EF /* String-MT.swift in Sources */,
+				76385A891D354A330085FBB1 /* HYLifeTableViewTopCell.swift in Sources */,
+				761D5E021D22C0C9003ADB62 /* HYLifeTableViewCell.swift in Sources */,
+				76E33B5E1D2BF005007D9ACA /* HYSettingItem.swift in Sources */,
+				76E33B4D1D2A4078007D9ACA /* HYBaseMenuViewController.swift in Sources */,
+				760976031D25414E00E1845B /* HYZoomBtn.swift in Sources */,
+				76E33B5C1D2BED38007D9ACA /* HYSettingGroup.swift in Sources */,
+				76E33B6F1D2D3B2E007D9ACA /* HYMeControllerTopBottomView.swift in Sources */,
+				7640860E1D15861E00C20D7E /* HYADViewController.swift in Sources */,
+				764086E71D1D6E5800C20D7E /* HYTableSectionHeaderView.swift in Sources */,
+				7684D8521D23E1A2001CC5EF /* HYLifeCellImageView.swift in Sources */,
+				76385A8C1D354AD70085FBB1 /* HYLifeCellBtn.swift in Sources */,
+				764086CF1D1C9CC300C20D7E /* HYCookDeliciousViewController.swift in Sources */,
+				76A1DD9F1D1E35BB00D83777 /* HYRoundImageView.swift in Sources */,
+				76385A861D352D4A0085FBB1 /* HYLifeTableViewHeaderFooterView.swift in Sources */,
+				76E33B4F1D2A4724007D9ACA /* HYBaseRecommendViewController.swift in Sources */,
+				761D5E0A1D22C541003ADB62 /* HYLifeItem.swift in Sources */,
+				76E33B3C1D28E31E007D9ACA /* HYShopProductViewController.swift in Sources */,
+				76F030591D2E3E93008417E7 /* HYLifeAttentionViewController.swift in Sources */,
+				761D5E0D1D22CD35003ADB62 /* HYLifeViewItem.swift in Sources */,
+				764086541D16D9BB00C20D7E /* HYOrderViewController.swift in Sources */,
+				76E33B421D290E09007D9ACA /* HYShopBottomBtn.swift in Sources */,
+				76F030531D2DF68E008417E7 /* HYLabelBtn.swift in Sources */,
+				7640861E1D15896C00C20D7E /* HYPublishViewController.swift in Sources */,
+				764086E31D1D018400C20D7E /* UIButton-Extension.swift in Sources */,
+				760976011D253CFF00E1845B /* HYDispatch_after.swift in Sources */,
+				764086291D15A6D100C20D7E /* UIImage-HYImage.swift in Sources */,
+				76E33B3A1D28AF54007D9ACA /* HYShopOtherViewController.swift in Sources */,
+				76E33B641D2C8B1F007D9ACA /* HYSettingSwitchItem.swift in Sources */,
+				76A1DDA61D1E396500D83777 /* HYCollectionTableViewCell.swift in Sources */,
+				764086461D1687B500C20D7E /* HYNetWorkTools.swift in Sources */,
+				764086E51D1D676100C20D7E /* HYRoundCornerImageView.swift in Sources */,
+				764086121D15863B00C20D7E /* HYLifeViewController.swift in Sources */,
+				76F0305F1D2E487D008417E7 /* HYLifeBottomTableViewCell.swift in Sources */,
+				761D5E111D23947E003ADB62 /* HYLifeCellTitleView.swift in Sources */,
+				761D5E041D22C153003ADB62 /* HYLifeCellTopView.swift in Sources */,
+				764086751D19046000C20D7E /* HYCookTopImageView.swift in Sources */,
+				76E33B541D2A5A35007D9ACA /* HYBreakfast Controller.swift in Sources */,
+				761D5DFB1D22B7EE003ADB62 /* HYBaseTableViewCell.swift in Sources */,
+				7640860C1D15857200C20D7E /* HYMainTabBarViewController.swift in Sources */,
+				76F46B151D266298009AEB01 /* HYTopBtn.swift in Sources */,
+				76F030551D2E3AF0008417E7 /* HYLifeMenuViewController.swift in Sources */,
+				76385A961D367E490085FBB1 /* HYLifeTableViewBottomCell.swift in Sources */,
+				764086DE1D1CDDA500C20D7E /* HYStretchableTableHeaderView.swift in Sources */,
+				76E33B661D2CD867007D9ACA /* HYSettingChildController.swift in Sources */,
+				761D5DF61D227B58003ADB62 /* HYSpecialTableViewCell.swift in Sources */,
+				7640860A1D15853C00C20D7E /* HYMainNavigationViewController.swift in Sources */,
+				764086B31D19A18900C20D7E /* HYCookSearchViewController.swift in Sources */,
+				764086D11D1C9D4D00C20D7E /* HYCookVideoViewController.swift in Sources */,
+				764086141D15864B00C20D7E /* HYMeViewController.swift in Sources */,
+				764086B91D1A318300C20D7E /* HYBaseView.swift in Sources */,
+				76E33B5A1D2BE6D2007D9ACA /* HYBaseTableViewController.swift in Sources */,
+				764086C71D1B083500C20D7E /* HYTopCellBtn.swift in Sources */,
+				76E33B4A1D2A0B21007D9ACA /* HYRecommendCollectionViewCell.swift in Sources */,
+				76E33B581D2A5A82007D9ACA /* HYDinnerViewController.swift in Sources */,
+				76F030511D2DE3B8008417E7 /* HYBorderRoundImageView.swift in Sources */,
+				761D5DF31D22728C003ADB62 /* HYShadeView.swift in Sources */,
+				76E33B521D2A57C5007D9ACA /* HYRecommendViewController.swift in Sources */,
+				76E33B691D2CE2FB007D9ACA /* HYMyBillViewController.swift in Sources */,
+				76F0305B1D2E3EFE008417E7 /* HYLifeEpicureViewController.swift in Sources */,
+				76385A941D366E030085FBB1 /* HYLifeBaseTableViewController.swift in Sources */,
+				764086501D16B12400C20D7E /* UIBarButtonItem-Item.swift in Sources */,
+				764085DD1D157AA300C20D7E /* AppDelegate.swift in Sources */,
+				76F030571D2E3E56008417E7 /* HYLifeNewViewController.swift in Sources */,
+				764086DB1D1CAD9C00C20D7E /* HYKnowLedgeTableViewCell.swift in Sources */,
+				7640866E1D181D0400C20D7E /* HYCookViewController.swift in Sources */,
+				764086251D1594F800C20D7E /* View-Frame.swift in Sources */,
+				764086CD1D1C935B00C20D7E /* HYCookGoodFishViewController.swift in Sources */,
+				761D5DF11D2258FD003ADB62 /* HYDBManager.swift in Sources */,
+				7640865A1D175A5200C20D7E /* HYCookTopScrollerView.swift in Sources */,
+				764086211D15901500C20D7E /* XiangHa.swift in Sources */,
+				7684D85A1D23FD43001CC5EF /* HYLifeCellContentView.swift in Sources */,
+				76385A8F1D3551E00085FBB1 /* HYLifeTableViewBottomCellTableViewCell.swift in Sources */,
+				764086BB1D1A437000C20D7E /* HYShopViewSearchController.swift in Sources */,
+				76E33B6B1D2D3417007D9ACA /* HYMeControllerTopView.swift in Sources */,
+				764086C01D1A61F700C20D7E /* HYTableViewTopCell.swift in Sources */,
+				7684D85F1D24105D001CC5EF /* HYOCUtils.m in Sources */,
+				76A1DD9C1D1E338D00D83777 /* HYCollectionViewCell.swift in Sources */,
+				76F716281D1FF79F00E17FAA /* HYBaseItem.swift in Sources */,
+				764086D31D1C9E0600C20D7E /* HYCookClassViewController.swift in Sources */,
+				764086561D16E43600C20D7E /* HYDiscoverViewController.swift in Sources */,
+				760975F91D24E81000E1845B /* HYRoundCornerView.swift in Sources */,
+				76F716261D1FF78300E17FAA /* HYActiveUser.swift in Sources */,
+				764086161D1586AE00C20D7E /* HYShopViewController.swift in Sources */,
+				76E33B621D2BF9FE007D9ACA /* HYSettingArrowItem.swift in Sources */,
+				76E33B381D28AB86007D9ACA /* HYWebViewController.swift in Sources */,
+				764086B51D1A2E7B00C20D7E /* HYSearchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		764085E51D157AA300C20D7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				764085E61D157AA300C20D7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		764085E91D157AA300C20D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		764085EA1D157AA300C20D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		764085EC1D157AA300C20D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFAB9BEE104B75162FE226F /* Pods-XiangHa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = XiangHa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hyde.XiangHa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = XiangHa/Bridge.h;
+			};
+			name = Debug;
+		};
+		764085ED1D157AA300C20D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FECCFF956AE79D4A8AA461 /* Pods-XiangHa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = XiangHa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hyde.XiangHa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = XiangHa/Bridge.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		764085D41D157AA300C20D7E /* Build configuration list for PBXProject "XiangHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764085E91D157AA300C20D7E /* Debug */,
+				764085EA1D157AA300C20D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764085EB1D157AA300C20D7E /* Build configuration list for PBXNativeTarget "XiangHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764085EC1D157AA300C20D7E /* Debug */,
+				764085ED1D157AA300C20D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 764085D11D157AA300C20D7E /* Project object */;
+}

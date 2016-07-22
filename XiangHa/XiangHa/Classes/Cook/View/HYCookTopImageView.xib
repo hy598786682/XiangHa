@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HYCookTopImageView" customModule="XiangHa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="302"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNc-3j-snf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="302"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lqz-tP-S4y">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="302"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHs-1v-rwW">
+                            <rect key="frame" x="252" y="60" width="23" height="120"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="23" id="GGU-TH-1WY"/>
+                                <constraint firstAttribute="height" constant="120" id="zue-76-Yw5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="37B-6b-IVD">
+                            <rect key="frame" x="290" y="60" width="40" height="140"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="LBN-m1-6E6"/>
+                                <constraint firstAttribute="height" constant="140" id="h6S-0P-GgG"/>
+                            </constraints>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xhwater" translatesAutoresizingMaskIntoConstraints="NO" id="JFe-NG-set">
+                            <rect key="frame" x="162" y="126" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="epk-bj-P9S"/>
+                                <constraint firstAttribute="width" constant="50" id="rJj-Rh-kKE"/>
+                            </constraints>
+                        </imageView>
+                        <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qf0-VZ-d7P" customClass="HYShadeView" customModule="XiangHa" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="227" width="375" height="75"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="qf0-VZ-d7P" secondAttribute="bottom" id="ASL-5X-mLr"/>
+                        <constraint firstItem="xHs-1v-rwW" firstAttribute="top" secondItem="bNc-3j-snf" secondAttribute="top" constant="60" id="JtD-1F-UN0"/>
+                        <constraint firstItem="Lqz-tP-S4y" firstAttribute="top" secondItem="bNc-3j-snf" secondAttribute="top" id="Lf8-a2-wMS"/>
+                        <constraint firstItem="qf0-VZ-d7P" firstAttribute="leading" secondItem="bNc-3j-snf" secondAttribute="leading" id="RAc-VC-foY"/>
+                        <constraint firstItem="37B-6b-IVD" firstAttribute="leading" secondItem="xHs-1v-rwW" secondAttribute="trailing" constant="15" id="RTs-7K-PhT"/>
+                        <constraint firstItem="qf0-VZ-d7P" firstAttribute="height" secondItem="Lqz-tP-S4y" secondAttribute="height" multiplier="0.25" id="Ss4-RS-8yD"/>
+                        <constraint firstItem="JFe-NG-set" firstAttribute="centerX" secondItem="bNc-3j-snf" secondAttribute="centerX" id="WLw-lf-YBa"/>
+                        <constraint firstItem="Lqz-tP-S4y" firstAttribute="leading" secondItem="bNc-3j-snf" secondAttribute="leading" id="WkV-nJ-SBS"/>
+                        <constraint firstAttribute="trailing" secondItem="Lqz-tP-S4y" secondAttribute="trailing" id="bfN-bf-2KO"/>
+                        <constraint firstItem="JFe-NG-set" firstAttribute="centerY" secondItem="bNc-3j-snf" secondAttribute="centerY" id="fGJ-F1-jiM"/>
+                        <constraint firstItem="37B-6b-IVD" firstAttribute="top" secondItem="xHs-1v-rwW" secondAttribute="top" id="ner-11-wgI"/>
+                        <constraint firstAttribute="trailing" secondItem="xHs-1v-rwW" secondAttribute="trailing" constant="100" id="rnD-kn-cmj"/>
+                        <constraint firstAttribute="trailing" secondItem="qf0-VZ-d7P" secondAttribute="trailing" id="s9J-LH-iVu"/>
+                        <constraint firstAttribute="bottom" secondItem="Lqz-tP-S4y" secondAttribute="bottom" id="uX6-KA-MiX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bNc-3j-snf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EEE-tZ-3v2"/>
+                <constraint firstAttribute="bottom" secondItem="bNc-3j-snf" secondAttribute="bottom" id="OTI-Cq-ziy"/>
+                <constraint firstItem="bNc-3j-snf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jSP-0d-Mzb"/>
+                <constraint firstAttribute="trailing" secondItem="bNc-3j-snf" secondAttribute="trailing" id="nWe-dd-nSA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="containView" destination="bNc-3j-snf" id="Gks-od-gl8"/>
+                <outlet property="imageView" destination="Lqz-tP-S4y" id="4Zx-JH-eeD"/>
+                <outlet property="label" destination="xHs-1v-rwW" id="MZb-gu-fjp"/>
+                <outlet property="typeImageView" destination="37B-6b-IVD" id="a5r-Cy-LGF"/>
+                <outlet property="videoImageView" destination="JFe-NG-set" id="2W5-1A-Zpp"/>
+            </connections>
+            <point key="canvasLocation" x="626.5" y="292"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xhwater" width="50" height="50"/>
+    </resources>
+</document>

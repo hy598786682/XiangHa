@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HYCookTopScrollerView" customModule="XiangHa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="255"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQ8-XJ-2hE">
+                    <rect key="frame" x="0.0" y="0.0" width="425" height="255"/>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="PzV-IN-S58">
+                    <rect key="frame" x="193" y="228" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6F-WM-Hbo" customClass="HYRoundCornerBtn" customModule="XiangHa" customModuleProvider="target">
+                    <rect key="frame" x="10" y="196" width="405" height="42"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="iN4-wJ-U8e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title=" 搜菜谱、食材、相克等" image="z_home_search_bg_input">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="z_home_search_bg_input"/>
+                    <connections>
+                        <action selector="searchOnclick" destination="iN0-l3-epB" eventType="touchUpInside" id="5ff-5b-7bE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PzV-IN-S58" secondAttribute="bottom" constant="-10" id="1aK-f7-hK4"/>
+                <constraint firstItem="OQ8-XJ-2hE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CUE-2b-RDK"/>
+                <constraint firstItem="PzV-IN-S58" firstAttribute="top" secondItem="p6F-WM-Hbo" secondAttribute="bottom" constant="-10" id="RAd-Nq-rGM"/>
+                <constraint firstItem="OQ8-XJ-2hE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YNF-cs-otO"/>
+                <constraint firstItem="p6F-WM-Hbo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="dKy-05-O4X"/>
+                <constraint firstAttribute="trailing" secondItem="p6F-WM-Hbo" secondAttribute="trailing" constant="10" id="iCs-hG-fx5"/>
+                <constraint firstItem="PzV-IN-S58" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mov-8n-NA9"/>
+                <constraint firstAttribute="bottom" secondItem="OQ8-XJ-2hE" secondAttribute="bottom" id="tl3-RO-Zh0"/>
+                <constraint firstAttribute="trailing" secondItem="OQ8-XJ-2hE" secondAttribute="trailing" id="uKA-kK-HE1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="pageViewControl" destination="PzV-IN-S58" id="itj-Kl-YEE"/>
+                <outlet property="scrollView" destination="OQ8-XJ-2hE" id="OJV-ET-gNO"/>
+                <outlet property="searchBtn" destination="p6F-WM-Hbo" id="PeS-PO-nzA"/>
+            </connections>
+            <point key="canvasLocation" x="402.5" y="241.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="z_home_search_bg_input" width="15" height="15"/>
+    </resources>
+</document>

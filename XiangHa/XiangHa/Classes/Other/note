@@ -1,0 +1,84 @@
+
+精彩生活圈
+http://api.xiangha.com/main6/index/getTieList?page=1&pageTime=
+
+url : http://api.xiangha.com/main6/index/getTieList?
+page=1
+pageTime=
+
+
+商城
+http://m.ds.xiangha.com/v1/home?fr1=ds_home_entry1
+
+
+今日推荐
+http://101.201.172.223/main5/caipu/getDishList?g1=1&page=1&type=typeRecommend
+
+购物车
+http://api.ds.xiangha.com/v1/home/dsInfo
+
+
+购物
+http://api.ds.xiangha.com/v2/cart/getCartInfo
+
+//精彩生活更多页
+http://101.201.172.223/main6/index/getTieList?page=2&pageTime=2016-07-01%2017%3A48%3A02
+
+page	2
+pageTime	2016-07-01 17:48:02
+page	3
+pageTime    2016-07-01 17:47:06
+
+page	4
+pageTime    2016-07-01 17:39:51
+
+page    5
+pageTime    2016-07-01 17:30:13
+
+
+
+
+
+
+//        let headerView = tableView.dequeueReusableHeaderFooterViewWithIdentifier(BottonHeaderID) as? HYLifeBottomTableViewHeaderFooterView
+//
+//        for view in vc.view.subviews{
+//            if view == vc.topView {
+//            headerView?.topView = view
+//            }
+//        }
+//
+//            return headerView
+
+
+
+
+//根据透明度隐藏 navigationBar 子控件
+/*
+func hiddenBarItem(isHidden : Bool) {
+
+for item : UIView in   (navigationController?.navigationBar.subviews)! {
+item.hidden = isHidden
+
+}
+}
+*/
+//设置tabBar透明度
+/*
+func setBarAlpha(offset : CGFloat){
+
+let alpha : CGFloat = offset > (scrollh - 64.0) ? 1 : 0
+
+hiddenBarItem(alpha == 1 ? false : true)
+
+let cookVcBackgroundImage = UIImage.imageWithColor( HYOrangeColorWithAlpha(alpha))
+
+navigationController?.navigationBar.setBackgroundImage(cookVcBackgroundImage, forBarMetrics: .Default)
+
+}
+*/
+
+
+
+
+

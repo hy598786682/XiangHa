@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HYLifeCellBottomView" customModule="XiangHa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="刚刚" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctZ-oX-xrw">
+                    <rect key="frame" x="0.0" y="16" width="24" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uq4-aH-qBo">
+                    <rect key="frame" x="24" y="16" width="31" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCC-AX-S0E">
+                    <rect key="frame" x="325" y="17" width="50" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="ROR-dY-C2G"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="2000" image="z_quan_home_body_ico_like">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYL-Fo-Hr5">
+                    <rect key="frame" x="265" y="17" width="50" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="KNz-Qz-06o"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="9" image="z_quan_home_body_ico_message">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dCC-AX-S0E" secondAttribute="trailing" id="09g-bS-fpI"/>
+                <constraint firstAttribute="trailing" secondItem="RYL-Fo-Hr5" secondAttribute="trailing" constant="60" id="GIe-b4-Ufa"/>
+                <constraint firstItem="Uq4-aH-qBo" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ltb-j4-mWa"/>
+                <constraint firstItem="ctZ-oX-xrw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="WQc-85-Iu7"/>
+                <constraint firstItem="Uq4-aH-qBo" firstAttribute="leading" secondItem="ctZ-oX-xrw" secondAttribute="trailing" id="bfK-A0-k3s"/>
+                <constraint firstItem="dCC-AX-S0E" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="j3b-DN-6hh"/>
+                <constraint firstItem="ctZ-oX-xrw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nht-GR-dbj"/>
+                <constraint firstItem="RYL-Fo-Hr5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vV5-ox-dUT"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commentNumBtn" destination="RYL-Fo-Hr5" id="KxK-3S-vb4"/>
+                <outlet property="likeBtn" destination="dCC-AX-S0E" id="98l-UA-7Xh"/>
+                <outlet property="timeLabel" destination="ctZ-oX-xrw" id="72L-ri-7lM"/>
+                <outlet property="typeLabel" destination="Uq4-aH-qBo" id="v1F-XO-jXy"/>
+            </connections>
+            <point key="canvasLocation" x="266" y="370"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="z_quan_home_body_ico_like" width="14" height="14"/>
+        <image name="z_quan_home_body_ico_message" width="14" height="14"/>
+    </resources>
+</document>

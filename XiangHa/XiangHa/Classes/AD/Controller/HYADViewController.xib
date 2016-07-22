@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HYADViewController" customModule="XiangHa" customModuleProvider="target">
+            <connections>
+                <outlet property="containView" destination="8SU-Fb-fDs" id="e6K-lQ-sNS"/>
+                <outlet property="jumpBtn" destination="oj9-EP-cv1" id="61c-iq-inh"/>
+                <outlet property="lanunchImageView" destination="gc9-p0-ynT" id="8jv-Ep-mjc"/>
+                <outlet property="view" destination="iN0-l3-epB" id="3cS-rn-lMd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gc9-p0-ynT">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8SU-Fb-fDs" userLabel="占位图片">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oj9-EP-cv1">
+                    <rect key="frame" x="285" y="40" width="60" height="27"/>
+                    <color key="backgroundColor" red="0.0066287878787878451" green="0.0066287878787878451" blue="0.0066287878787878451" alpha="0.76979518581081086" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="60A-Id-dFL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                    <state key="normal" title="跳过2"/>
+                    <connections>
+                        <action selector="jumpOnclick" destination="-1" eventType="touchUpInside" id="RfG-1l-OKA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oj9-EP-cv1" secondAttribute="trailing" constant="30" id="ASU-Xn-K6I"/>
+                <constraint firstAttribute="bottom" secondItem="gc9-p0-ynT" secondAttribute="bottom" id="C1A-Jq-hcC"/>
+                <constraint firstItem="8SU-Fb-fDs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Efd-O0-hJT"/>
+                <constraint firstAttribute="trailing" secondItem="8SU-Fb-fDs" secondAttribute="trailing" id="GDS-rK-sQT"/>
+                <constraint firstItem="gc9-p0-ynT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GRg-2H-pKc"/>
+                <constraint firstAttribute="bottom" secondItem="8SU-Fb-fDs" secondAttribute="bottom" id="Hk5-DK-iSf"/>
+                <constraint firstItem="gc9-p0-ynT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LfC-6g-JsT"/>
+                <constraint firstItem="oj9-EP-cv1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="XLV-Ek-fig"/>
+                <constraint firstAttribute="trailing" secondItem="gc9-p0-ynT" secondAttribute="trailing" id="iXA-Eg-bTb"/>
+                <constraint firstItem="8SU-Fb-fDs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="v4Z-NF-Vmi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="288.5" y="80.5"/>
+        </view>
+    </objects>
+</document>
